@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frostbite_expansion:block/packed_snow_slab"
+    },
+    "type=double": {
+      "model": "frostbite_expansion:block/packed_snow"
+    },
+    "type=top": {
+      "model": "frostbite_expansion:block/packed_snow_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "frostbite_expansion:block/packed_snow_bricks"
+  }
+}

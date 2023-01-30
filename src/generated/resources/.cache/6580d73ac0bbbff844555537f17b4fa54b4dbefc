@@ -1,2 +1,11 @@
-// 1.19.2	2022-12-03T21:34:09.0064459	Item Models: frostbite_expansion
+// 1.19.2	2023-01-30T14:27:31.7282702	Item Models: frostbite_expansion
+1688aca3d5fd4df646743e183bb72ec0ac51069c assets/frostbite_expansion/models/item/carved_packed_snow.json
 99963e44b1d06a4f5379526268ff6ae896a2bbf6 assets/frostbite_expansion/models/item/ice_lily.json
+4e3dc76667899dcb486f95117f9adc7acea8dd9e assets/frostbite_expansion/models/item/packed_snow.json
+42396a62acf2598904b63701abc9cc798affb96e assets/frostbite_expansion/models/item/packed_snow_bricks.json
+12f0c8232eca8466cb7b5e8aec2c4e4cf224143d assets/frostbite_expansion/models/item/packed_snow_brick_slab.json
+dd03470212461d25250b365cedcd294c56c4a566 assets/frostbite_expansion/models/item/packed_snow_brick_stairs.json
+75c91c5d1051bf1b8c9a20a6162bf4de7ff18039 assets/frostbite_expansion/models/item/packed_snow_brick_wall.json
+7b8d1b48bd7a21e07832808047a172a33573b079 assets/frostbite_expansion/models/item/packed_snow_slab.json
+09a7e2966ed4778ca6304c21429f3aaecdeb0066 assets/frostbite_expansion/models/item/packed_snow_stairs.json
+ee085326f2d3aa5c7469325805e0b514b8dc161a assets/frostbite_expansion/models/item/packed_snow_wall.json

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "frostbite_expansion:block/packed_snow",
+    "side": "frostbite_expansion:block/packed_snow_slab_side",
+    "top": "frostbite_expansion:block/packed_snow"
+  }
+}

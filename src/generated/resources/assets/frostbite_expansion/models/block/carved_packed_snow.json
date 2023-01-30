@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "frostbite_expansion:block/carved_packed_snow"
+  }
+}

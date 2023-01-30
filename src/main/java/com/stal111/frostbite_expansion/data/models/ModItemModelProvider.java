@@ -21,5 +21,12 @@ public class ModItemModelProvider extends ValhelsiaItemModelProvider {
         takeBlockItem(this::simpleModel,
                 ModBlocks.ICE_LILY
         );
+
+        takeBlockItem(this::withParentInventory,
+                ModBlocks.PACKED_SNOW_WALL,
+                ModBlocks.PACKED_SNOW_BRICK_WALL
+        );
+
+        forEachBlockItem(this::withParent);
     }
 }
