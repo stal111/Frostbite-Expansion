@@ -1,12 +1,10 @@
 package com.stal111.frostbite_expansion.data.models;
 
-import com.stal111.frostbite_expansion.FrostbiteExpansion;
 import com.stal111.frostbite_expansion.core.registry.ModBlocks;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.WallBlock;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.valhelsia.valhelsia_core.core.data.DataProviderInfo;
 import net.valhelsia.valhelsia_core.core.data.ValhelsiaBlockStateProvider;
 
 /**
@@ -15,8 +13,9 @@ import net.valhelsia.valhelsia_core.core.data.ValhelsiaBlockStateProvider;
  */
 public class ModBlockStateProvider extends ValhelsiaBlockStateProvider {
 
-    public ModBlockStateProvider(DataGenerator gen, ExistingFileHelper exFileHelper) {
-        super(gen, FrostbiteExpansion.REGISTRY_MANAGER, exFileHelper);
+
+    public ModBlockStateProvider(DataProviderInfo info) {
+        super(info.output(), info.registryManager(), info.fileHelper());
     }
 
     @Override

@@ -1,9 +1,7 @@
 package com.stal111.frostbite_expansion.data.models;
 
-import com.stal111.frostbite_expansion.FrostbiteExpansion;
 import com.stal111.frostbite_expansion.core.registry.ModBlocks;
-import net.minecraft.data.DataGenerator;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.valhelsia.valhelsia_core.core.data.DataProviderInfo;
 import net.valhelsia.valhelsia_core.core.data.ValhelsiaItemModelProvider;
 
 /**
@@ -12,8 +10,8 @@ import net.valhelsia.valhelsia_core.core.data.ValhelsiaItemModelProvider;
  */
 public class ModItemModelProvider extends ValhelsiaItemModelProvider {
 
-    public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, FrostbiteExpansion.REGISTRY_MANAGER, existingFileHelper);
+    public ModItemModelProvider(DataProviderInfo info) {
+        super(info.output(), info.registryManager(), info.fileHelper());
     }
 
     @Override
